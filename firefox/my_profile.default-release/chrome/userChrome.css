@@ -1,0 +1,32 @@
+/*
+ * These are my custom CSS stuffs :3
+ */
+
+/* HIDE TAB BAR */
+#tabbrowser-tabs {
+  visibility: collapse !important;
+}
+
+#TabsToolbar-customization-target {
+  visibility: collapse !important;
+}
+
+/*
+ * Tree Style Tab sidebar
+ */
+
+/* wrap tab names */
+tab-item:not(.collapsed) tab-label {
+  overflow: unset;
+  white-space: unset;
+}
+
+/* bold active tab name */
+tab-item.active .label-content {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#sidebar-header {
+  display: none !important;
+}

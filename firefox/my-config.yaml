@@ -1,0 +1,4 @@
+extensions:
+  - git-url: https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies/releases/latest
+  - git-url: https://github.com/piroor/treestyletab/releases/latest
+  - git-url: https://github.com/gorhill/uBlock/releases/latest
